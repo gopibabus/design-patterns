@@ -108,4 +108,4 @@ class CacheManager
 
 ```
 
-> 🧠 Store Application level configuration(ENVIRONMENT VARIABLES) in .env file or .yaml files.
+> 🧠 Store Application level configuration(ENVIRONMENT VARIABLES) in **.env file or .yaml files**.
