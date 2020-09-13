@@ -25,4 +25,4 @@ Similarly, a software factory produces objects for you. The factory takes your r
 
 3. Build factory class to create objects that we defined in second step.
 
-> [🌍 Reference](https://github.com/gopibabus/design-patterns/tree/master/php/Chapter%203/SimpleFactory)
+> [🌍 Reference](https://github.com/gopibabus/design-patterns/tree/master/creational/SimpleFactory)
