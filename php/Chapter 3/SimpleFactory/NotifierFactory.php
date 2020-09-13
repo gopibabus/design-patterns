@@ -1,12 +1,9 @@
 <?php
 
-/**
- * User: Junade Ali
- * Date: 13/03/2016
- * Time: 13:55
- */
 class NotifierFactory
 {
+    const EMAIL_FROM = 'gopi';
+
     public static function getNotifier($notifier, $to)
     {
 
@@ -19,7 +16,7 @@ class NotifierFactory
                 return new SMS($to);
                 break;
             case 'Email':
-                return new Email($to, 'Junade');
+                return new Email($to, self::EMAIL_FROM);
                 break;
             default:
                 throw new Exception("Notifier invalid.");

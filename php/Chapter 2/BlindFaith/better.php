@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: junade
- * Date: 18/02/2016
- * Time: 07:43
- */
 
 $isAdmin = false;
 

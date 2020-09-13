@@ -1,9 +1,6 @@
 <?php
-/**
- * User: Junade Ali
- * Date: 13/03/2016
- * Time: 21:20
- */
+
+declare(strict_types=1);
 
 require_once('Notifier.php');
 require_once('NotifierFactory.php');
