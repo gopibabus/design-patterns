@@ -1,10 +1,6 @@
 <?php
+require_once('Notifier.php');
 
-/**
- * User: Junade Ali
- * Date: 13/03/2016
- * Time: 21:29
- */
 class Email extends Notifier
 {
 

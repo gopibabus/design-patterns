@@ -1,10 +1,6 @@
 <?php
+require_once('Notifier.php');
 
-/**
- * User: Junade Ali
- * Date: 13/03/2016
- * Time: 15:00
- */
 class SMS extends Notifier
 {
     public function validateTo(): bool

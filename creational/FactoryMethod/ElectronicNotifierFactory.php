@@ -1,10 +1,8 @@
 <?php
+require_once('NotifierFactory.php');
+require_once('SMS.php');
+require_once('Email.php');
 
-/**
- * User: Junade Ali
- * Date: 13/03/2016
- * Time: 13:55
- */
 class ElectronicNotifierFactory implements NotifierFactory
 {
     public static function getNotifier($notifier, $to)
@@ -19,7 +17,7 @@ class ElectronicNotifierFactory implements NotifierFactory
                 return new SMS($to);
                 break;
             case 'Email':
-                return new Email($to, 'Junade');
+                return new Email($to, 'Gopi');
                 break;
             default:
                 throw new Exception("Notifier invalid.");

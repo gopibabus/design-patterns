@@ -1,10 +1,5 @@
 <?php
 
-/**
- * User: Junade Ali
- * Date: 13/03/2016
- * Time: 15:00
- */
 class Post extends Notifier
 {
     public function validateTo(): bool

@@ -1,10 +1,7 @@
 <?php
+require_once('NotifierFactory.php');
+require_once('Post.php');
 
-/**
- * User: Junade Ali
- * Date: 13/03/2016
- * Time: 13:55
- */
 class CourierNotifierFactory implements NotifierFactory
 {
     public static function getNotifier($notifier, $to)
