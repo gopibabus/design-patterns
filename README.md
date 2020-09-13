@@ -1,5 +1,7 @@
 ![Design patterns](./banner.png)
 
+> Design patterns plays a crucial role in software design; they allow the design of more complicated bits of software without re-inventing the wheel.
+
 There are 3 categories of design patterns:
 
 * Creational
@@ -18,6 +20,14 @@ When thinking of dependency injection, let's outline the four separate roles inv
 - The client that depends on the service being injected.
 - The interface that determines how the client can use the service.
 - The injector that is responsible for instantiating the service and injecting it into the client.
+
+Following are examples of different Creational Design Patterns:
+- Simple Factory
+- Factory Method
+- Abstract Factory Pattern
+- Lazy Initialization
+- Builder Pattern
+- Prototype Pattern
 
 ## 🚧Structural design patterns
 
