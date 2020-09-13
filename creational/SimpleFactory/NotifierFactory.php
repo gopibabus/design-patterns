@@ -1,4 +1,6 @@
 <?php
+require_once('SMS.php');
+require_once('Email.php');
 
 class NotifierFactory
 {

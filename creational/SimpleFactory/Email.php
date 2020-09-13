@@ -1,4 +1,5 @@
 <?php
+require_once('Notifier.php');
 
 class Email extends Notifier
 {

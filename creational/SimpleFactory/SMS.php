@@ -1,4 +1,5 @@
 <?php
+require_once('Notifier.php');
 
 class SMS extends Notifier
 {
