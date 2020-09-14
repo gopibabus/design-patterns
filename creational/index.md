@@ -1,3 +1,12 @@
+<style>
+  h1, h2, h3 {
+    color: purple;
+  }
+
+  strong {
+    color: red;
+}
+</style>
 # 🏗Creational Design Patterns
 
 > 💠 Design patterns that concern **object creation mechanisms**.
