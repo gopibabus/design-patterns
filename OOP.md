@@ -1,7 +1,7 @@
 # Object-Oriented Programming
 
 ### UML Representation of Class
-![class-uml](class-uml.png)
+![class-uml](assets/img/class-uml.png)
 
 ### Difference between Class and Object?
 **Class** is like a blueprint that defines the structure for **Objects**. Objects are concrete instances of the Class.
@@ -13,14 +13,14 @@ Collectively **fields and methods** in a class are referenced as the **members**
 **Data** stored inside the Object's fields is often referenced as **state** and all the Object's methods define its behavior.
 
 ### UML Representation of Inheritance
-![inheritance-uml](inheritance-uml.png)
-![inheritance-uml with out members in class](inheritance-uml-2.png)
+![inheritance-uml](assets/img/inheritance-uml.png)
+![inheritance-uml with out members in class](assets/img/inheritance-uml-2.png)
 
 ### What is Abstraction?
 Abstraction is a model of a real world object or phenomenon, limited to a specific context, 
 which represents all details relevant to this context with high accuracy and omits all the rest.
 
-![abstraction](abstraction.png)
+![abstraction](assets/img/abstraction.png)
 
 ### What is Encapsulation?
 Encapsulation is the ability of an Object to hide parts of its state and behaviors from other Objects, 
@@ -35,11 +35,11 @@ Interfaces & abstract classes/methods of most programming languages are based on
 
 ### UML Representation of Classes and Interface
 
-![abstraction-uml](abstraction-uml.png)
+![abstraction-uml](assets/img/abstraction-uml.png)
 
 ### Inheritance
 Inheritance is the ability to build new classes on top of existing ones. The main benefit of inheritance is code reuse.
-![inheritance-with-interfaces](inheritance-with-interfaces.png)
+![inheritance-with-interfaces](assets/img/inheritance-with-interfaces.png)
 
 > If super class implements an interface, all of its subclasses must also implement it.
 
@@ -52,13 +52,13 @@ Polymorphism is the ability of an object to pretend to be something else.
 
 ### UML Representation of Association Relationship
 
-![association-uml](association-uml.png)
+![association-uml](assets/img/association-uml.png)
 
 ### UML Representation of Dependency Relationship
-![dependency-uml](dependency-uml.png)
+![dependency-uml](assets/img/dependency-uml.png)
 
 ### UML Representation of Composition Relationship
-![composition-uml](composition-uml.png)
+![composition-uml](assets/img/composition-uml.png)
 
 ### UML Representation of Aggregation Relationship
-![aggregation-uml](aggregation-uml.png)
+![aggregation-uml](assets/img/aggregation-uml.png)

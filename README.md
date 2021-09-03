@@ -1,18 +1,3 @@
-![Design patterns](./banner.png)
+![Design patterns](assets/img/banner.png)
 
-> 
-
-There are 3 categories of design patterns:
-
-* **Creational**
-* **Structural**
-* **Behavioral**
-
-## 🏗Creational Design Patterns
-
-## 🚧Structural design patterns
-
-## 🏊Behavioral design patterns
-
-## ⚖️Architectural patterns
-
+> Design Patterns are typical Solutions to commonly occurring problems in software design. They are like pre-made blueprints that you can customize to solve a recurring design problem in your code.

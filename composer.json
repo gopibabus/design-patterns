@@ -1,0 +1,16 @@
+{
+    "name": "srungava/design-patterns-php",
+    "description": "design patterns notes",
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gopibabu Srungavarapu",
+            "email": "gopibabu.srungavarapu@amundi.com"
+        }
+    ],
+    "require": {}
+}
