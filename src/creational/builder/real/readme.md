@@ -1,0 +1,1 @@
+> One of the best applications of the Builder pattern is an **SQL query builder**. The builder interface defines the common steps required to build a generic SQL query. On the other hand, concrete builders, corresponding to different SQL dialects, implement these steps by returning parts of SQL queries that can be executed in a particular database engine
