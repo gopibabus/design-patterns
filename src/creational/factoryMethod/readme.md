@@ -1,27 +1,25 @@
 # Factory Method
 
-> Provides an interface for creating Objects in a Super Class, but allows subclasses to alter the type of Objects that will be created. 
+> **Factory Method** is a creational design pattern that provides an interface for creating objects in a super class, but allows subclasses to alter the type of objects that will be created.
 
-### Problem
-![logistics](../../../assets/img/logistics.png)
+* Objects returned by a factory Method are often referred as **Products**
+* SubClasses may return different types of products only if these products have a common base class or interface.
+* Factory method in the vase class should have its return type declared as interface.
+* The Code that uses the factory method(often called as client code) doesn't see difference between the actual products returned by various subclasses.
 
-Imagine that you’re creating a logistics management application. The first version of your app can only handle transportation by trucks, so the bulk of your code lives inside the **Truck** class.
+### Structure
 
-After a while, your app becomes pretty popular. Each day you receive dozens of requests from sea transportation companies to incorporate sea logistics  into the app.
+![structure](structure.png)
 
-At present, most of your code is coupled to the **Truck** class. Adding **Ships** into the app would require making changes to the entire codebase. Moreover, if later you decide to add another type of transportation to the app, you will probably need to make all of these changes again.
+1. The **Product** declares the interface, which is common to all objects that can be produced by the creator and its subclasses.
+2. **Concrete Products** are different implementations for Product Interface.
+3. The **Creator** classes declares the factory method(abstract or default product type) that returns new product Objects. It's important that return type of this method matches the product Interface.
+4. **Concrete Creators** override the base factory method so it returns a different type of Product.
 
-### Solution
-The Factory Method pattern suggests that you replace direct object construction calls (using the new operator) with calls to a special factory method. Don’t worry, the objects are still created via the new operator, but it’s being called from within the factory method. Objects returned by a factory method are often referred to as “products.
-
-The code that uses the factory method (often called the client code) doesn’t see a difference between the actual products returned by various subclasses. The client treats all the products as abstract Transport .
-
-![logistics-1](../../../assets/img/logistics-1.png)
-
-![logistics-2](../../../assets/img/logistics-2.png)
+> **NOTE**: Factory Method doesn't have to create new instances all the time. It can also return existing Objects from a cache, an Object Pool, or another Source.
 
 ### Applicability
 
-* Use the Factory Method when you don’t know beforehand the exact types and dependencies of the objects your code should work with.
+* Use the Factory Method when you don't know beforehand the exact types and dependencies of the Objects your code should work with.
 * Use the Factory Method when you want to provide users of your library or framework with a way to extend its internal components.
-* Use the Factory Method when you want to save system resources by reusing existing objects instead of rebuilding them each time.
+* Use the Factory Method when you want to save system resources by reusing existing Objects instead of rebuilding then each time.
