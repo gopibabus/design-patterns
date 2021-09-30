@@ -5,7 +5,7 @@
 ### [Adapter / Wrapper](./adapter/readme.md)
 > Provided a unified interface that allows objects with incompatible interfaces to collaborate.
 
-### Bridge
+### [Bridge](./bridge/readme.md)
 > Lets you split a large class or a set of closely related classes into 2 separate hierarchies(abstraction and implementation). Which can be developed independently of each other.
 
 ### Composite
