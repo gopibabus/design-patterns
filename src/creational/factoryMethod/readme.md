@@ -1,6 +1,6 @@
 # Factory Method
 
-> **Factory Method** is a creational design pattern that provides an interface for creating objects in a super class, but allows subclasses to alter the type of objects that will be created.
+> **Factory Method** is a creational design pattern that provides an interface for creating objects in a super class, but allows subclasses to alter the type of objects that will be created. Also known as **Virtual Constructor**.
 
 * Objects returned by a factory Method are often referred as **Products**
 * SubClasses may return different types of products only if these products have a common base class or interface.

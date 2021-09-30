@@ -1,0 +1,1 @@
+For example, instead of rewriting the notification interface of your app to support each 3rd-party service such as Slack, Facebook, SMS or (you-name-it), you can create a set of special wrappers that adapt calls from your app to an interface and format required by each 3rd-party class.

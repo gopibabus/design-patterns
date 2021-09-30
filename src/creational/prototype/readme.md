@@ -2,7 +2,7 @@
 
 ![prototype](prototype.png)
 
-> **Prototype** is  a creational Design pattern that lets you copy existing objects without making your code dependent on their classes.
+> **Prototype** is  a creational Design pattern that lets you copy existing objects without making your code dependent on their classes. Also known as **Clone**.
 
 ### Problem
 Say you have an Object, and you want to create an exact copy of it. How would you do it? First, you have to create a  new object of same class. Then you have to go through all fields of the original Object and copy their values over to the new Object.
