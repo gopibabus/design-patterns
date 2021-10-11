@@ -1,0 +1,3 @@
+In this example, the Decorator pattern helps you to construct complex text filtering rules to clean up content before rendering it on a web page. Different types of content, such as comments, forum posts or private messages require different sets of filters.
+
+For example, while you’d want to strip out all HTML from the comments, you might still want to keep some basic HTML tags in forum posts. Also, you may want to allow posting in Markdown format, which shall be processed before any HTML filtering takes place. All these filtering rules can be represented as separate decorator classes, which can be stacked differently, depending on the nature of the content you have.
