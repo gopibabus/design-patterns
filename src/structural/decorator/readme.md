@@ -1,5 +1,7 @@
 # Decorator
 
+![decorator](decorator.png)
+
 > **Decorator** is a structural Design pattern that lets you attach new behaviors to Objects by placing these Objects inside special wrapper Objects that contain the behaviors.
 
 ### Problem
