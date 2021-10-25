@@ -1,0 +1,5 @@
+The most widely known use of the Chain of Responsibility (CoR) pattern in the PHP world is found in HTTP request middleware. These are implemented by the most popular PHP frameworks and even got standardized as part of PSR-15.
+
+It works like this: an HTTP request must pass through a stack of middleware objects in order to be handled by the app. Each middleware can either reject the further processing of the request or pass it to the next middleware. Once the request successfully passes all middleware, the primary handler of the app can finally handle it.
+
+You might have noticed that this approach is kind of inverse to the original intent of the pattern. Indeed, in the typical implementation, a request is only passed along a chain if a current handler Can’t process it, while a middleware passes the request further down the chain when it thinks that the app CAN handle the request. Nevertheless, since middleware objects are chained, the whole concept is still considered an example of the CoR pattern.
