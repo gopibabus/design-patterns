@@ -1,0 +1,1 @@
+Since PHP already has a built-in Iterator interface, which provides convenient integration with foreach loops, it’s very easy to create your own iterators for traversing almost every imaginable data structure.
