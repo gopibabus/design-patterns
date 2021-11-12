@@ -1,0 +1,1 @@
+In this example, the **Mediator** pattern expands the idea of the **Observer** pattern by providing a centralized event dispatcher. It allows any object to track & trigger events in other objects without depending on their classes.
