@@ -1,0 +1,1 @@
+In this example, the Command pattern is used to queue web scraping calls to the IMDB website and execute them one by one. The queue itself is kept in a database that helps to preserve commands between script launches.
