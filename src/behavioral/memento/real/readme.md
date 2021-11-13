@@ -1,0 +1,1 @@
+Since most of the PHP scripts are single-threaded and have very limited session time, you’re required to store the objects’ state in more permanent storage than RAM. Usually, it’s also perfectly fine to make snapshots via serialization. Therefore, I have run out of ideas for a decent real-world example of this pattern in a PHP application.
