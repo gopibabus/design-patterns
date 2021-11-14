@@ -26,7 +26,7 @@
 ### [Strategy](./strategy/readme.md)
 > Lets you define family of algorithms, put each of them into a separate class, and make their Objects interchangeable.
 
-### [Template Method](./template-method/readme.md)
+### [Template Method](templateMethod/readme.md)
 > Defines the skeleton of an algorithm in the super class but lets subclasses override specific steps of the algorithm without changing its structure.
 
 ### [Visitor](./visitor/readme.md)
